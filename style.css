@@ -41,13 +41,21 @@ header {
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 2rem;
     z-index: 2;
 }
 
 .about-me {
     width: min(100vw - 40px, 600px);
     padding: 20px;
+}
+
+.about-me h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 main {
